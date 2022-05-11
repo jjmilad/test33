@@ -34,7 +34,7 @@ ROOT_URLCONF = 'phishing.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['/Users/jj/desktop/phishing/templates'],
+        'DIRS': ['your directory/templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -90,7 +90,7 @@ USE_TZ = True
 #EMAIL_HOST_USER = ''
 #EMAIL_HOST_PASSWORD = ''
 
-STATIC_ROOT = '/Users/jj/desktop/phishing/static/'
+STATIC_ROOT = 'your directory/static/'
 STATIC_URL = '/static/'
 SESSION_COOKIE_NAME = 'yusuf'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
